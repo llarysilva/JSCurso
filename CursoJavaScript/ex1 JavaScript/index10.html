@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Sistema de multas</h1>
+          Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> km/h
+          <input type="button" value="verificar" onclick="caucular()"> <br><br>
+          <div>Dirija sempre  abaixo de 60 km/h para não ser multado</div>
+         <div id="res"> </div>
+         <script>
+          function caucular() {
+           var txtv = window.document.querySelector('input#txtvel')
+           var res = window.document.querySelector('div#res')
+           var vel  = Number(txtv.value)
+           res.innerHTML = `<p>Sua velocidade atual  é de <strong> ${vel}</strong> km/h</p>`
+           if (vel > 60) {
+               res.innerHTML += '<p>Voce esta sendo multado por ecesso de velocidade</p>'
+           }
+           res.innerHTML += '<p>Dirija sempre com cinto de segurança</p>'
+          }
+          </script>
+    </section>
+    <div class="ecomercial">©llarysilva</div>
+
+
+</body>
+</html>

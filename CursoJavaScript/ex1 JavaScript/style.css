@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+section {
+    margin-top: 100px;
+    background-color: blanchedalmond;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 400px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.507);
+
+
+}
+.ecomercial {
+    color: white;
+        text-align: center;
+        margin-top: 30px;
+
+}
+input {
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    outline: 0;
+    background-color: rgb(184, 185, 181);
+    
+}
