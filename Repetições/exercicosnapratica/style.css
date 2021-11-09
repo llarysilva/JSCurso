@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+ 
+body {
+    background-color: black;
+}
+body h1{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+section {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    font-family: verdana;
+    border-radius: 15px;
+    box-shadow:  2px 2px 2px 2px rgba(255, 255, 255, 0.253);
+    
+
+}
+input {
+    margin: 5px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.61) 2px;
+}
+.button {
+    font-size: 15px;
+}
+.button:hover {
+ border: solid 2px black;
+ 
+}
