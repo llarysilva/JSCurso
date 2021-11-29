@@ -34,7 +34,7 @@ function adicionar() {
 } 
 function finalizar() {
     if (valores.length == 0) {
-        res.innerHTML = 'Adicionar valores antes de finalizar'
+        res.innerHTML = 'Adicione valores antes de finalizar'
     } else {
         var tot = valores.length
         var maior = valores.length[0]
